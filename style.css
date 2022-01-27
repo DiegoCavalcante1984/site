@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;1,100;1,300;1,400&display=swap');
+
+
+*{
+  padding: 0px;
+  margin: 0px;
+
+}
+
+body{
+ background-color:rgb(65, 64, 64);
+ font-family: "Roboto";
+}
+header{
+  min-height: 150px;
+  background: black;
+  text-align: center;
+  color: white;
+  box-shadow: 3px 3px 8px black;
+ 
+  
+}
+header > h1{
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+nav{
+  
+  background-color:black;
+  padding: 15px;
+  
+}
+nav a {
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(247, 250, 253);
+
+}
+nav :hover{
+  background-color: #2957f0;
+  border-radius: 5px;
+  transition-duration: 1s;
+}
+main{
+  background-color:rgb(255, 252, 252);
+  text-align: justify;
+  box-shadow:3px 3px 8px rgba(0, 0, 0, 0.445);
+  margin: auto;
+  padding: 20px;
+  max-width: 1000px;
+  min-width: 300px;
+  border-bottom-left-radius:5px ;
+  border-bottom-right-radius:5px ;
+
+}
+
+  main img{
+  width: 70%;
+  display: flex;
+  margin: auto;
+  margin-bottom: 15px;
+}
+main p{
+  padding: 15px 0px;
+  text-align:justify;
+  text-indent: 30px;
+  line-height:1.8em;
+
+  
+}
+
+ 
+ 
+  
+
+iframe{
+  display: block;
+  margin: 1em auto;
+  width:80%;
+  height: calc(.5625 * 80vw);
+  max-width: 600px;
+  max-height: 300px;
+
+ 
+}
+aside{
+  background-color: #dad6d6;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.315);
+}
+aside h2{
+  background-image:linear-gradient(to right,black,transparent);
+  color: white;
+  border-top-left-radius:5px;
+  border-top-right-radius:5px;
+  text-align: center;
+}
+aside a{
+  text-decoration: none;
+  padding: 2px;
+  display: flex;
+  padding: 8px;
+  margin-left: 5px;
+ 
+}
+aside > ul{
+  list-style:none;
+}
+aside ul li{
+  text-decoration: none;
+  color: #000000;
+  padding: 4px
+  ;
+}
+aside li:hover{
+  text-decoration: underline;
+  background-color: #2957f0;
+  border-radius: 2px;
+  
+}
+footer{
+  background-color: #000000;
+  padding: 8px;
+  color:  #2957f0;
+  text-align: center;
+  margin-top: 20px;
+}
